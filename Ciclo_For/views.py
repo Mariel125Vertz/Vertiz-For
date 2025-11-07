@@ -39,3 +39,4 @@ def ejecutar_codigo(request):
             return JsonResponse({"error": str(e)})
 
     return JsonResponse({"error": "Método no permitido"})
+    
